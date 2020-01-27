@@ -5,13 +5,13 @@
           <div class="form-group">
               Username
               <br>
-              <input type="text"class="form-control" [(ngModel)]="user.userName" [ngModelOptions]="{standalone: true}">
+              <input type="text"class="form-control" [(ngModel)]="user.userName" [ngModelOptions]="{standalone: true}" required>
           </div>
             <br>
           <div class="form-group">
               Password
               <br>
-              <input type="password" class="form-control" [(ngModel)]="user.password" [ngModelOptions]="{standalone: true}" > 
+              <input type="password" class="form-control" [(ngModel)]="user.password" [ngModelOptions]="{standalone: true}" required > 
               <br>
               <a href="http://forgotPassword.html" target="_blank">Forgot password?</a>
           </div>
