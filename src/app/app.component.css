@@ -17,8 +17,8 @@
   padding-left: 18px;
 }
 form{
-  background-color: rgba(224, 218, 218, 0.884);
-  display: inline-block;
+  background-color: lightgrey;
+  display: table-cell;
 }
 .box
 {

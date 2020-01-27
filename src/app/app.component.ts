@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
+import { user }from './user.model';
+
 
 @Component({
   selector: 'my-app',
@@ -6,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  user:user = new user();
+  submit()
+  {
+    console.log(this.user);
+  }
 }
